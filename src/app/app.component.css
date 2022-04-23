@@ -1,0 +1,64 @@
+.box{
+    width:400px;
+    min-height:450px;
+    border:1px solid gray;
+    margin:calc(calc(100vh - 450px)/2) auto;
+}
+
+.box > h1{
+    text-align: center;
+    color:var(--text-primary)
+}
+
+.names{
+    box-sizing: border-box;
+    width:95%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.btn{
+background-color: var(--bg-primary);
+color:var(--text-light);
+cursor: pointer;
+}
+.btn:hover{
+background-color: var(--bg-primary-2);
+color:var(--text-light);
+}
+.btn:active{
+background-color: black;
+}
+
+.btn-lg{
+    display:block;
+    width:95%;
+    margin: 10px;
+    padding: 10px;
+}
+.teams-box{
+    display:flex;
+    padding:10px;
+}
+
+.teams-i,.teams-b{
+    padding: 10px;
+}
+.teams-i{
+flex:1;
+flex-grow: 2;
+}
+.teams-b{
+flex:1
+}
+
+.output2 {
+height: 90px;
+    border: dashed 1px gray;
+    margin: 5px;
+    padding: 5px;
+    overflow-y:auto;
+  }

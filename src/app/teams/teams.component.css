@@ -1,0 +1,9 @@
+.list {
+    padding: 3px 5px;
+    background-color: rgb(246, 188, 188);
+    list-style-type: none;
+    border: dotted var(--text-primary) 1px;
+    margin-top: 5px;
+    font-size: small;
+    color: rgb(118, 6, 6);
+  }
